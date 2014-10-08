@@ -1,205 +1,113 @@
 <!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />	
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="http://47billion.com/favicon.ico" type="image/x-icon">
-    <title>47Billion</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <script src="js/vendor/modernizr.js"></script>
-    <link rel="stylesheet" href="font/roboto/stylesheet.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="font/lato/stylesheet.css" type="text/css" charset="utf-8">
-    <link rel="stylesheet" href="font/foundation-icons/foundation-icons.css" type="text/css" charset="utf-8">
-  </head>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>47Billion</title>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
 <body>
-     <div class="off-canvas-wrap"> 
-   <div class="inner-wrap">
-   <aside class="left-off-canvas-menu">
-    <ul class="off-canvas-list">
-      <li class="active"><a href="index.html">Home</a></li>
-     </ul>
-     <ul class="off-canvas-list">
-     	<li><label class="first"><a href="services.html">Services</a></label></li>
-        <li><a href="services.html#ArchitectureDefinition">Architecture Definition</a></li>
-        <li><a href="services.html#ProcessAdvisory">Process Advisory</a></li>
-        <li><a href="services.html#UserExperienceAndDesign">User Experience and Design</a></li>
-        <li><a href="services.html#ProductDevelopmentTesting">Product Development & Testing</a></li>
-        <li><a href="services.html#PerformanceMeasurementAndOptimization">Performance Measurement & Optimization</a></li>
-     </ul>
-     <!--<ul class="off-canvas-list">
-		<li class="has-dropdown"><label>Technologies</label></li>	
-        <li><a href="big-data.html">Big Data and Analytics</a></li>
-        <li><a href="cloud.html">Cloud and SaaS</a></li>
-        <li><a href="mobile.html">Mobile Development in iOS and Android</a></li>
-        <li><a href="social.html">Social Media Integration</a></li>
-        <li><a href="web.html">Web Development</a></li>
-        <li><a href="ui.html">User interface design</a></li>
-        <li><a href="scalability.html">Scalability and Performance tuning</a></li>
-        <li><a href="continuous.html">Continuous Delivery</a></li>
-     </ul>    -->
-      <!--<ul class="off-canvas-list"><li><a href="clients.html">Clients</a></li></ul>-->
-      <ul class="off-canvas-list"><li><a href="about.html">About</a></li></ul>
-      <ul class="off-canvas-list"><li><a href="contact.html">Contact</a></li></ul>
-      <!--<ul class="off-canvas-list"><li><a href="jobs.html">Jobs</a></li></ul>-->
-</aside>
-  
-    <nav class="top-bar large-12 row" data-topbar>
-  <ul class="title-area">
-    <li class="name">
-      <h1><a href="index.html"> <img src="img/logo.jpg"  alt=""/></a></h1>
-    </li><li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-  </ul>
-
-  <section class="top-bar-section">
-    <!-- Right Nav Section -->
-    <ul class="right">
-      <li><a href="index.html">Home</a></li>
-      <li class="has-dropdown"><a href="services.html">Services</a>
-      <ul class="dropdown">
-          <!--<li><label class="first"><a href="services.html">Services</a></label></li>-->
-        <li><a href="services.html#ArchitectureDefinition">Architecture Definition</a></li>
-        <li><a href="services.html#ProcessAdvisory">Process Advisory</a></li>
-        <li><a href="services.html#UserExperienceAndDesign">User Experience and Design</a></li>
-        <li><a href="services.html#ProductDevelopmentTesting">Product Development & Testing</a></li>
-        <li><a href="services.html#PerformanceMeasurementAndOptimization">Performance Measurement & Optimization</a></li>
-        </ul></li>
-      <!--<li class="has-dropdown"><a href="technology.html">Technology</a>
-      <ul class="dropdown">
-          <li><a href="big-data.html">Big Data and Analytics</a></li>
-          <li><a href="cloud.html">Cloud and SaaS</a></li>
-          <li><a href="mobile.html">Mobile Development in iOS and Android</a></li>
-          <li><a href="social.html">Social Media Integration</a></li>
-          <li><a href="web.html">Web Development</a></li>
-          <li><a href="ui.html">User interface design</a></li>
-          <li><a href="scalability.html">Scalability and Performance tuning</a></li>
-          <li><a href="continuous.html">Continuous Delivery</a></li>
-        </ul></li>-->
-      <!--<li><a href="clients.html">clients</a></li>-->
-      <li class="active"><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <!--<li><a href="jobs.html">Jobs</a></li>-->
-    </ul>
-
-  </section>
+<!-- Navigation-->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="container-fluid"> 
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" title="" width="70%" /></a> </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="philosophy.html">Philosophy</a></li>
+          <li><a href="strength.html">Strength</a></li>
+          <li><a href="career.html">Career</a></li>
+          <li><a href="#" class="active">Contact</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+    </div>
+    <!-- /.container-fluid --> 
+  </div>
 </nav>
+<!--/ Navigation--> 
 
-<!-- slider Section -->
-
-    <div class="seperator">
+<!-- Controls Slider-->
+<div class="content-section who-vr-section"> <img src="img/banner-image-1.jpg" alt="" width="100%" height="auto" style="margin-bottom:65px">
+  <div class="container">
+    <div class="col-lg-9 col-sm-8">
+      <h2 class="marT0">Contact
+        <div class="text-orange">//</div>
+      </h2>
+      <div class="contact-block-1">
+        <div>
+          <h4>47Billion</h4>
+          <p>409-B, Corporate House</p>
+          <p>5th Floor, 169 RNT Marg</p>
+          <p><span class="text-bold">Indore</span> (MP) India - 452001</p>
+          <div class="spaceH"></div>
+          <div class="spaceH"></div>
+          <p>Phone: +91 731 405 8858</p>
+          <p>Email: info@47billion.com</p>
+        </div>
+        <hr/>
+        <div>
+          <h4>47Billion</h4>
+          <p>Krishe Sapphire</p>
+          <p>7th Floor, South Wing</p>
+          <p>Hitec City Main Road</p>
+          <p>Madhapur</p>
+          <p><span class="text-bold">Hyderabad</span> (AP) India - 500081</p>
+        </div>
+      </div>
+      <div class="spaceH"></div>
     </div>
-
-<!-- CTA Blocks -->
-<div class="internal row">
-
-    <div class="large-9 column">
-
-<ul class="breadcrumbs">
-<li><a href="index.html">Home</a></li>
-<li class="current"><a href="#">Contact</a></li>
-</ul>
-
-    <div class="content">
-<h1>Contact</h1>
-<blockquote>
-<h4>47Billion</h4>
-409-B, Corporate House<br>
-5th Floor, 169 RNT Marg<br>
-<strong>Indore</strong> (MP) India - 452001<br>
-<br>
-Phone: +91 731 405 8858<br>
-Email: info@47billion.com<br>
-<hr/>
-<h4>47Billion</h4>
-Krishe Sapphire<br>
-7th Floor, South Wing<br>
-Hitec City Main Road<br>
-Madhapur<br>
-<strong>Hyderabad</strong> (AP) India - 500081<br>
-
-</blockquote>
-<br>
-<div id="wufoo-z1ons04z0nptqge">
-Fill out our <a href="https://47billion.wufoo.com/forms/z1ons04z0nptqge" target="_blank">online form</a>.
+    <div class="col-lg-3 col-sm-4">
+      <div class="right-block-1">
+        <p>we help </p>
+        <p>our clients </p>
+        <p>over <span class="text-bold">web,</span></p>
+        <p><span class="text-bold">mobile</span> &amp;</p>
+        <p>all <span class="text-bold">interactive</span></p>
+        <p>domain</p>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="spaceH"></div>
+    <div class="spaceH"></div>
+  </div>
 </div>
-<!--<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/partners/">Wufoo integrations</a> and get your data to your favorite apps.</div>-->
-<script type="text/javascript">var z1ons04z0nptqge;(function(d, t) {
-var s = d.createElement(call), options = {
-'userName':'47billion',
-'formHash':'z1ons04z0nptqge',
-'autoResize':true,
-'height':'597',
-'async':true,
-'host':'wufoo.com',
-'header':'show',
-'ssl':true};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-try { z1ons04z0nptqge = new WufooForm();z1ons04z0nptqge.initialize(options);z1ons04z0nptqge.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script><br>
-
+<footer>
+  <div class="footer-bdr">
+    <div class="col-xs-8"></div>
+    <div class="col-xs-4"></div>
+  </div>
+  <div class="container">
+    <div class="col-lg-7 col-sm-7">
+      <ul class="nav navbar-footer list-inline">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Career</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
-    
-    
-    
+    <div class="col-lg-1 col-sm-1">
+      <div class="spaceH"></div>
+      <div class="spaceH"></div>
     </div>
-    
-    <div class="large-3 column right-about">
-<h1><span>we help our clients over</span> web, mobile <span>& all</span>  interactive
-<span>domain</span></h1>
-	
+    <div class="col-lg-4 col-sm-4">
+      <div class="copyright text-right">
+        <p><a href="#" class="marLR10"><img src="img/facebook.png" alt="" title="" /></a><a href="#"><img src="img/gplus.png" alt="" title="" /></a><a href="#" class="marLR10"><img src="img/twitter.png" alt="" title="" /></a><a href="#"><img src="img/linkedin.png" alt="" title="" /></a></p>
+        <p>&copy; Copyright 2014 <span class="text-bold">47Billion Pvt. Ltd.</span></p>
+      </div>
     </div>
-    
-
-</div>
-
-<!-- Footer Section -->
-    <div class="foot-sep"> </div>
-    
-    <div class="row footer">
-<div class="large-8 column">
-    <ul class="nav">
-    	<!--<li><label class="first"><a href="services.html">Services</a></label></li>-->
-        <li><a href="services.html#ArchitectureDefinition">Architecture Definition</a></li>
-        <li><a href="services.html#ProcessAdvisory">Process Advisory</a></li>
-        <li><a href="services.html#UserExperienceAndDesign">User Experience and Design</a></li>
-        <li><a href="services.html#ProductDevelopmentTesting">Product Development & Testing</a></li>
-        <li><a href="services.html#PerformanceMeasurementAndOptimization">Performance Measurement & Optimization</a></li>
-        
-    </ul>
-    
-<!--     <ul class="nav">
-    	<li class="heading">Technologies</li>
-<li><a href="#">Big Data and Analytics</a></li>
-          <li><a href="big-data.html">Big Data and Analytics</a></li>
-          <li><a href="cloud.html">Cloud and SaaS</a></li>
-          <li><a href="mobile.html">Mobile Development in iOS and Android</a></li>
-          <li><a href="social.html">Social Media Integration</a></li>
-          <li><a href="web.html">Web Development</a></li>
-          <li><a href="ui.html">User interface design</a></li>
-          <li><a href="scalability.html">Scalability and Performance tuning</a></li>
-          <li><a href="continuous.html">Continuous Delivery</a></li>        
-    </ul>-->
-    <ul class="nav">
-    <li class="heading">Company</li>
-    <!--<li><a href="clients.html">Clients</a></li>-->
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-     <!--<li><a href="jobs.html">Jobs</a></li>-->
-    </ul>
-</div>
-
-<div class="large-4 column copyright"><img src="img/social.png"  alt=""/><br>
-© Copyright 2014 <span>47Billion Pvt. Ltd.</span></div>    
-    </div>
-
-</div></div>
-    
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
+  </div>
+</footer>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+</body>
 </html>
