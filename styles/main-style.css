@@ -18,7 +18,7 @@
 		url('../fonts/WeblySleekUISemibold/weblysleekuisb.svg#WeblySleekUISemibold') format('svg');
 }*/
 body{font-family: 'Open Sans', sans-serif !important;color:#636363;font-size:14px !important;line-height:22px !important}
-.wrapper{width:100%;position:relative;display:block;margin-top:20px}
+.wrapper{width:100%;position:relative;display:block;margin-top:18px}
 .navbar-brand{height:auto!important;padding:0 !important}
 .header-region{margin-bottom:25px}
 .cd-words-wrapper{font-weight:600}
