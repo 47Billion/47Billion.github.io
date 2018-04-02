@@ -37,6 +37,19 @@ input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
 select::-moz-focus-inner,
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-sizing: content-box;
+    padding: 20px !important;
+}
+select {
+    height: 40px;
+    line-height: 40px;
+    text-indent: 4px;
+    cursor: pointer;
+}
 input[type="file"] > input[type="button"]::-moz-focus-inner {
     border: 0;
     outline: 0;
@@ -1997,7 +2010,6 @@ p {
 
 #contact input, select {
     width: 100%;
-    max-width:;
     padding: 12.9px;
     color: #444;
     background: #fff;
@@ -2856,7 +2868,7 @@ ul.caret-list li:before {
 .carousel-inner {
     width: auto;
     margin: 0 auto;
-    background: rgba(46, 182, 215, 0.9);
+    background: #f3793adb;
     max-width: 1170px;
     /*min-height: 230px;*/
 }
