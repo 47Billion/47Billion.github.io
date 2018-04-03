@@ -134,24 +134,31 @@
                     <div class="row">
                       <br />
                       <div class="col-md-6">
-                        <div class="col-md-12"><br /><p class="lead">Budget</p></div>
+                        <div class="col-md-12"><br /><p class="lead">Budget(USD)</p></div>
                         <div class="col-md-12">
-                            <select  name="Budget" id="budget" value="" required>
+                          <div class="radio radio-primary"><label><input type="radio" name="Budget(USD)" value="Less than 25k">Less than 25k</label></div>
+                          <div class="radio radio-primary"><label><input type="radio" name="Budget(USD)" value="25K-50K">25K-50K</label></div>
+                          <div class="radio radio-primary"><label><input type="radio" name="Budget(USD)" value="50K-100K">50K-100K</label></div>
+                          <div class="radio radio-primary"><label><input type="radio" name="Budget(USD)" value="More than 100K">More than 100K</label></div>
+                            <!-- <select  name="Budget" id="budget" value="" required>
                             <option value="< 25K"> &lt; 25K </option>
                             <option value="25K-50K"> 25K-50K </option>
                             <option value="50K-100K"> 50K-100K </option>
                             <option value="100K >"> 100K &gt; </option>
-                          </select>
+                          </select> -->
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <div class="col-md-12"><br /><p class="lead">Timeline</p></div>
+                        <div class="col-md-12"><br /><p class="lead">Timeline(Month)</p></div>
                         <div class="col-md-12">
-                          <select  name="Timeline" id="timeline" value="" required>
+                          <div class="radio radio-primary"><label><input type="radio" name="Timeline(Month)" value="Less than 3 Months">Less than 3 Months</label></div>
+                          <div class="radio radio-primary"><label><input type="radio" name="Timeline(Month)" value="3-6 Months">3-6 Months</label></div>
+                          <div class="radio radio-primary"><label><input type="radio" name="Timeline(Month)" value="More than 6 Months">More than 6 Months</label></div>
+                          <!-- <select  name="Timeline" id="timeline" value="" required>
                           <option value="3 Months"> 3 Months </option>
                           <option value="6 Months"> 6 Months </option>
                           <option value="6 Months >"> 6 Months &gt; </option>
-                        </select>
+                        </select> -->
                         </div>
                       </div>
                     </div>
