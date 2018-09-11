@@ -30,8 +30,6 @@ a:focus {
     color: #121212;
     text-decoration: none;
 }
-
-a:focus, a:active,
 button::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
