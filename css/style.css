@@ -3049,6 +3049,8 @@ ul.caret-list li:before {
     }
     .multi-item-carousel .team-info{ display: none;
         visibility: hidden;}
+
+    .clutch{ margin-top:0 !important; margin-bottom: 30px; }
 }
 
 @media screen
@@ -3074,4 +3076,11 @@ and (orientation: landscape) {
     .multi-item-carousel .team-info{ display: none;
         visibility: hidden;}
 
+
+
 }
+#clutch { background: #f9f9f9; margin-top: 25px; padding: 50px 0; text-align: center; }
+.big_widget_wrapper_slide { background: #fff !important }
+.cl-bg{ background: #fff; padding: 30px 0}
+
+.top-clutch { position: absolute; !important; top: 35px !important; right: 20px !important; width: 200px; height: auto; float: right;}
