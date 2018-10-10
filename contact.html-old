@@ -95,19 +95,87 @@
                 <form method="post" action="https://formspree.io/hello@47billion.com" style="padding: 0 0 120px;">
                     <input type="hidden" name="Subject" value="47Billion Contact" />
                     <input type="hidden" name="Next" value="thank-you.html" />
+                    <input type="text" name="Gotcha" style="display:none">
+                        <div class="col-md-12"><br /><p class="lead">About you</p></div>
+                        <div class="col-md-6">
+                            <input name="Name" type="text" id="name" size="30" value="" placeholder="Your Name" required/>
+                            <br />
+                            <input name="Email" type="email" id="email" size="30" value="" placeholder="Your Email" required/>
+                            </div>
+                        <div class="col-md-6">
+                            <input name="Company" type="text" id="company" size="30" value="" placeholder="Your Company"/>
+                            <br />
+                            <input name="Phone" type="number" id="phone" size="30" value="" placeholder="Your Phone"/>
+                        </div>
+                    <div class="col-md-12"><br><br><p class="lead">Your Idea</p></div>
                     <div class="col-md-12">
-                        <textarea name="Project Summary" cols="20" id="summary" maxlength="1000" rows="1.5" autocomplete="off"  placeholder="Describe your Idea in brief!" required></textarea>
+                        <textarea name="Project Summary" cols="20" id="summary" maxlength="1000" rows="1.5" autocomplete="off"  placeholder="Share your thoughts briefly" required></textarea>
+                    </div>
+                    <div class="col-md-12"><br><br><p class="lead">Where can we help you?</p></div>
+                    <div class="col-md-12">
+                        <div class="checkbox checkbox-primary pull-left">
+                            <input name="User Experience" id="UserExperience" type="checkbox">
+                            <label for="UserExperience">User Experience
+                            </label>
+                        </div>
+                        <div class="checkbox checkbox-primary pull-left">
+                            <input name="User Interface" id="UserInterface" type="checkbox">
+                            <label for="UserInterface">User Interface</label>
+                        </div>
+                        <div class="checkbox checkbox-primary pull-left">
+                            <input name="Mobile App" id="MobileApp" type="checkbox">
+                            <label for="MobileApp">Mobile App</label>
+                        </div>
+                        <div class="checkbox checkbox-primary pull-left">
+                            <input name="Web App" id="WebApp" type="checkbox">
+                            <label for="WebApp">Web App</label>
+                        </div>
+                        <div class="checkbox checkbox-primary pull-left">
+                            <input name="Backend" id="Backend" type="checkbox">
+                            <label for="Backend">Backend</label>
+                        </div>
+                        <div class="checkbox checkbox-primary pull-left">
+                            <input name="Analytics/Predictions" id="AnalyticsPredictions" type="checkbox">
+                            <label for="AnalyticsPredictions">Analytics/Predictions
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row">
+                      <br />
+                      <div class="col-md-6">
+                        <div class="col-md-12"><br /><p class="lead">Budget(USD)</p></div>
+                        <div class="col-md-12">
+                          <div class="radio radio-primary"><label><input type="radio" name="Budget(USD)" value="Less than 25k">Less than 25k</label></div>
+                          <div class="radio radio-primary"><label><input type="radio" name="Budget(USD)" value="25K-50K">25K-50K</label></div>
+                          <div class="radio radio-primary"><label><input type="radio" name="Budget(USD)" value="50K-100K">50K-100K</label></div>
+                          <div class="radio radio-primary"><label><input type="radio" name="Budget(USD)" value="More than 100K">More than 100K</label></div>
+                            <!-- <select  name="Budget" id="budget" value="" required>
+                            <option value="< 25K"> &lt; 25K </option>
+                            <option value="25K-50K"> 25K-50K </option>
+                            <option value="50K-100K"> 50K-100K </option>
+                            <option value="100K >"> 100K &gt; </option>
+                          </select> -->
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="col-md-12"><br /><p class="lead">Timeline(Month)</p></div>
+                        <div class="col-md-12">
+                          <div class="radio radio-primary"><label><input type="radio" name="Timeline(Month)" value="Less than 3 Months">Less than 3 Months</label></div>
+                          <div class="radio radio-primary"><label><input type="radio" name="Timeline(Month)" value="3-6 Months">3-6 Months</label></div>
+                          <div class="radio radio-primary"><label><input type="radio" name="Timeline(Month)" value="More than 6 Months">More than 6 Months</label></div>
+                          <!-- <select  name="Timeline" id="timeline" value="" required>
+                          <option value="3 Months"> 3 Months </option>
+                          <option value="6 Months"> 6 Months </option>
+                          <option value="6 Months >"> 6 Months &gt; </option>
+                        </select> -->
+                        </div>
+                      </div>
                     </div>
 
-                    <input type="text" name="Gotcha" style="display:none">
-                        <div class="col-md-6">
-                            <input name="Email" type="email" id="email" size="30" value="" placeholder="Your Email" required/>
-                        </div>
-                        <div class="col-md-6">
-                        </div>
                     <div class="clearfix"></div>
                     <div class="col-md-12 text-left"><br>
-                        <input type="submit" class="submit" id="submit" value="SUBMIT"  />
+                        <input type="submit" class="submit" id="submit" value="Click to submit"  />
                     </div>
                 </form>
             </div>
