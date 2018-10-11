@@ -48,9 +48,29 @@
 
       gtag('config', 'UA-60258456-1');
     </script>
+
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MVZSJ9C');</script>
+        <!-- End Google Tag Manager -->
+
+
+        <style>
+        label.error{
+            color:red !important;
+        }
+        </style>
 </head>
 
 <body>
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVZSJ9C"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
 <section id="fixed-navbar">
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
         <div class="container">
@@ -92,22 +112,22 @@
                 <p class="lead">hand in hand, like a true partner in crime!</span></p>
             </div>
             <div class="col-lg-12 text-left wow flipInX no-pad" id="contact">
-                <form method="post" action="https://formspree.io/hello@47billion.com" style="padding: 0 0 120px;">
+                <form id="contactForm" method="post" action="https://formspree.io/hello@47billion.com" style="padding: 0 0 120px;">
                     <input type="hidden" name="Subject" value="47Billion Contact" />
                     <input type="hidden" name="Next" value="thank-you.html" />
                     <div class="col-md-12">
-                        <textarea name="Project Summary" cols="20" id="summary" maxlength="1000" rows="1.5" autocomplete="off"  placeholder="Describe your Idea in brief!" required></textarea>
+                        <textarea name="ProjectSummary" cols="20" id="summary" maxlength="1000" rows="1.5" autocomplete="off"  placeholder="Describe your Idea in brief!"></textarea>
                     </div>
 
                     <input type="text" name="Gotcha" style="display:none">
-                        <div class="col-md-6">
-                            <input name="Email" type="email" id="email" size="30" value="" placeholder="Your Email" required/>
-                        </div>
-                        <div class="col-md-6">
-                        </div>
+                    <div class="col-md-6">
+                        <input name="Email" type="email" id="email" size="30" value="" placeholder="Your Email"/>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
                     <div class="clearfix"></div>
                     <div class="col-md-12 text-left"><br>
-                        <input type="submit" class="submit" id="submit" value="SUBMIT"  />
+                        <input type="submit" class="submit" id="submit" value="SUBMIT" disabled="disabled" />
                     </div>
                 </form>
             </div>
@@ -239,6 +259,7 @@
 <script src="js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
 <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
 <script src="js/jquery.backstretch.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
 <script src="js/scripts.js" type="text/javascript"></script>
 </body>
 </html>
