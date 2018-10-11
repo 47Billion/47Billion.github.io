@@ -1068,7 +1068,7 @@ $(window).load(function () {
 //Contact Form
 $(document).ready(function() {
     
-    $('button').on('click', function() {
+    $('input').on('blur', function() {
         if ($("#contactForm").valid()) {
             $('#submit').prop('disabled', false);  
         } else {
