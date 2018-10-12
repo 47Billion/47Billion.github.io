@@ -1067,8 +1067,15 @@ $(window).load(function () {
 
 //Contact Form
 $(document).ready(function() {
-    
-    $('input').on('keydown', function() {
+
+    // $('input').bind('copy paste cut',function(e) {
+    //     e. preventDefault();
+    // });
+    // $('textarea').bind('copy cut',function(e) {
+    //     e. preventDefault();
+    // });
+
+    $('input, textarea').on('keydown change keyup paste blur', function() {
         if ($("#contactForm").valid()) {
             $('#submit').prop('disabled', false);
             $('#submit').addClass( "submit-active" ); 
@@ -1091,6 +1098,7 @@ $(document).ready(function() {
         }
     });
 });
+
 
 
 
