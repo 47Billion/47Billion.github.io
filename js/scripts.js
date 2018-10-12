@@ -1068,11 +1068,13 @@ $(window).load(function () {
 //Contact Form
 $(document).ready(function() {
     
-    $('input').on('blur', function() {
+    $('input').on('keydown', function() {
         if ($("#contactForm").valid()) {
-            $('#submit').prop('disabled', false);  
+            $('#submit').prop('disabled', false);
+            $('#submit').addClass( "submit-active" ); 
         } else {
             $('#submit').prop('disabled', 'disabled');
+            $('#submit').removeClass( "submit-active" ); 
         }
     });
     
@@ -1089,6 +1091,7 @@ $(document).ready(function() {
         }
     });
 });
+
 
 
 
