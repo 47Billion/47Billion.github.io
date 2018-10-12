@@ -1075,7 +1075,7 @@ $(document).ready(function() {
     //     e. preventDefault();
     // });
 
-    $('input, textarea').on('keydown change keyup paste blur', function() {
+    $('input[type="email"], textarea').on('keydown change keyup paste blur', function() {
         if ($("#contactForm").valid()) {
             $('#submit').prop('disabled', false);
             $('#submit').addClass( "submit-active" ); 
